@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+
+    color: #3F3D56;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 37px;
+    margin-top: 68px;
+    margin-bottom: 22px;
+    font-weight: 700;
+}
+
+.label-field {
+    font-size: 14px;
+    margin-top: 22px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    /*box-sizing: border-box;*/
+}
+
+.data-country {
+    display: flex;
+    align-items: center;
+    
+}
+
+.box-data {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.box-country {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.field {
+    height: 47px;
+    width: 396px;
+}
+
+
+.data-field {
+    margin-top: 24px;
+    font-size: 14px;
+}
+
+.country-field {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.genre-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.eula {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkbox {
+    margin-top: 28px;
+}
+
+p {
+    margin-top: 28px;
+    font-size: 14px;
+    width: 368px;
+    height: 34px;
+}
+
+button {
+    margin-top: 28px;
+    background: #3F3D56;
+    border-radius: 5px;
+    width: 396px;
+    height: 47px;
+    color: white;
+}
+
+.signin {
+    margin-top: 28px;
+    width: 297px;
+    height: 16px;
+    font-size: 14px;
+}
